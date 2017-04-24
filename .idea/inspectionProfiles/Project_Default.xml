@@ -1,0 +1,45 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="8">
+            <item index="0" class="java.lang.String" itemvalue=":to" />
+            <item index="1" class="java.lang.String" itemvalue="scoped" />
+            <item index="2" class="java.lang.String" itemvalue="@click" />
+            <item index="3" class="java.lang.String" itemvalue="@on-change" />
+            <item index="4" class="java.lang.String" itemvalue=":class" />
+            <item index="5" class="java.lang.String" itemvalue=":src" />
+            <item index="6" class="java.lang.String" itemvalue="@mouseover" />
+            <item index="7" class="java.lang.String" itemvalue="@mouseout" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="14">
+            <item index="0" class="java.lang.String" itemvalue="nobr" />
+            <item index="1" class="java.lang.String" itemvalue="noembed" />
+            <item index="2" class="java.lang.String" itemvalue="comment" />
+            <item index="3" class="java.lang.String" itemvalue="noscript" />
+            <item index="4" class="java.lang.String" itemvalue="embed" />
+            <item index="5" class="java.lang.String" itemvalue="script" />
+            <item index="6" class="java.lang.String" itemvalue="router-view" />
+            <item index="7" class="java.lang.String" itemvalue="v-link" />
+            <item index="8" class="java.lang.String" itemvalue="router-link" />
+            <item index="9" class="java.lang.String" itemvalue="v-select" />
+            <item index="10" class="java.lang.String" itemvalue="v-single" />
+            <item index="11" class="java.lang.String" itemvalue="v-multiple" />
+            <item index="12" class="java.lang.String" itemvalue="v-slide" />
+            <item index="13" class="java.lang.String" itemvalue="transition" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+  </profile>
+</component>

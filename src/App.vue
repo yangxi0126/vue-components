@@ -16,6 +16,11 @@
       <p>轮播 slide</p>
       <v-slide :slides="slides" :interval="intervalTime" @on-change="slideChange($event)"></v-slide>
     </div>
+    <div class="components-box">
+      <p>弹窗 modal</p>
+      <div class="app-btn" @click="showEvt">show modal</div>
+      <v-modal :isShow="isShow" @on-change="closeEvt"></v-modal>
+    </div>
   </div>
 </template>
 
@@ -24,13 +29,15 @@
   import vSingle from './components/single'
   import vMultiple from './components/multiple'
   import vSlide from './components/slide'
+  import vModal from './components/modal'
 
   export default {
     components: {
       vSelect,
       vSingle,
       vMultiple,
-      vSlide
+      vSlide,
+      vModal
     },
     name: 'app',
     data () {
@@ -75,7 +82,8 @@
             href: 'www.baidu.com'
           }
         ],
-        intervalTime: 3000
+        intervalTime: 3000,
+        isShow: false
       }
     },
     methods: {
@@ -94,6 +102,12 @@
       slideChange (event) {
         console.log("slide");
         console.log(event);
+      },
+      showEvt () {
+        this.isShow = true;
+      },
+      closeEvt () {
+        this.isShow = false;
       }
     }
   }
@@ -117,10 +131,21 @@
     margin: 30px 0;
   }
 
-  .components-box p {
+  .components-box > p {
     margin: 10px;
     padding: 10px;
     background: #4fc08d;
     color: #fff;
+  }
+
+  .app-btn {
+    width: 120px;
+    height: 35px;
+    line-height: 35px;
+    margin: 0 auto;
+    cursor: pointer;
+    font-size: 14px;
+    color: #fff;
+    background: #4fc08d;
   }
 </style>

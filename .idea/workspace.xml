@@ -319,7 +319,7 @@
       <option name="presentableId" value="Default" />
       <updated>1493000814903</updated>
       <workItem from="1493000816240" duration="18559000" />
-      <workItem from="1493083439236" duration="17805000" />
+      <workItem from="1493083439236" duration="17818000" />
     </task>
     <task id="LOCAL-00001" summary="modal弹窗">
       <created>1493087249380</created>
@@ -342,11 +342,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493087298022</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="分页组件">
+      <created>1493109236391</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1493109236391</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36364000" />
+    <option name="totallyTimeSpent" value="36377000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -411,7 +418,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="modal弹窗" />
-    <option name="LAST_COMMIT_MESSAGE" value="modal弹窗" />
+    <MESSAGE value="分页组件" />
+    <option name="LAST_COMMIT_MESSAGE" value="分页组件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

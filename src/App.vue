@@ -21,6 +21,10 @@
       <div class="app-btn" @click="showEvt">show modal</div>
       <v-modal :isShow="isShow" @on-change="closeEvt"></v-modal>
     </div>
+    <div class="components-box">
+      <p>分页 page</p>
+      <v-page :total="80" :current.sync="1" :dispaley="10" @on-change="pageChange($event)"></v-page>
+    </div>
   </div>
 </template>
 
@@ -30,6 +34,7 @@
   import vMultiple from './components/multiple'
   import vSlide from './components/slide'
   import vModal from './components/modal'
+  import vPage from './components/page'
 
   export default {
     components: {
@@ -37,7 +42,8 @@
       vSingle,
       vMultiple,
       vSlide,
-      vModal
+      vModal,
+      vPage
     },
     name: 'app',
     data () {
@@ -100,14 +106,17 @@
         console.log(event);
       },
       slideChange (event) {
-        console.log("slide");
-        console.log(event);
+//        console.log("slide");
+//        console.log(event);
       },
       showEvt () {
         this.isShow = true;
       },
       closeEvt () {
         this.isShow = false;
+      },
+      pageChange (event) {
+        console.log(event);
       }
     }
   }

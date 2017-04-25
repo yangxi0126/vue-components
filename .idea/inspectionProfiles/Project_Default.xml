@@ -4,7 +4,7 @@
     <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="myValues">
         <value>
-          <list size="8">
+          <list size="12">
             <item index="0" class="java.lang.String" itemvalue=":to" />
             <item index="1" class="java.lang.String" itemvalue="scoped" />
             <item index="2" class="java.lang.String" itemvalue="@click" />
@@ -13,6 +13,10 @@
             <item index="5" class="java.lang.String" itemvalue=":src" />
             <item index="6" class="java.lang.String" itemvalue="@mouseover" />
             <item index="7" class="java.lang.String" itemvalue="@mouseout" />
+            <item index="8" class="java.lang.String" itemvalue="@keyup.13" />
+            <item index="9" class="java.lang.String" itemvalue="v-model.number" />
+            <item index="10" class="java.lang.String" itemvalue="v-model.number.trim" />
+            <item index="11" class="java.lang.String" itemvalue="v-model.trim" />
           </list>
         </value>
       </option>
@@ -21,7 +25,7 @@
     <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="myValues">
         <value>
-          <list size="16">
+          <list size="18">
             <item index="0" class="java.lang.String" itemvalue="nobr" />
             <item index="1" class="java.lang.String" itemvalue="noembed" />
             <item index="2" class="java.lang.String" itemvalue="comment" />
@@ -38,6 +42,8 @@
             <item index="13" class="java.lang.String" itemvalue="transition" />
             <item index="14" class="java.lang.String" itemvalue="v-modal" />
             <item index="15" class="java.lang.String" itemvalue="slot" />
+            <item index="16" class="java.lang.String" itemvalue="pagination" />
+            <item index="17" class="java.lang.String" itemvalue="v-page" />
           </list>
         </value>
       </option>

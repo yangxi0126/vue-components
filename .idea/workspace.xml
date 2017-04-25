@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d9b8e38-d23f-46a9-b8e1-dc384e541577" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/modal.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/index.js" afterPath="$PROJECT_DIR$/config/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.vue" afterPath="$PROJECT_DIR$/src/App.vue" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -309,12 +305,20 @@
       <option name="presentableId" value="Default" />
       <updated>1493000814903</updated>
       <workItem from="1493000816240" duration="18559000" />
-      <workItem from="1493083439236" duration="3217000" />
+      <workItem from="1493083439236" duration="3230000" />
     </task>
+    <task id="LOCAL-00001" summary="modal弹窗">
+      <created>1493087249380</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1493087249380</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21776000" />
+    <option name="totallyTimeSpent" value="21789000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -376,6 +380,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="modal弹窗" />
+    <option name="LAST_COMMIT_MESSAGE" value="modal弹窗" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

@@ -1,6 +1,6 @@
 # vue-components
 
-> A Vue.js project
+[demo](https://yangxi0126.github.io/vue-components-demo/static/index.html)
 
 ## Build Setup
 

@@ -5,6 +5,10 @@
       <v-select :lists="selections" @on-change="selectChange($event)"></v-select>
     </div>
     <div class="components-box">
+      <p>下拉框多选 selectMultiple</p>
+
+    </div>
+    <div class="components-box">
       <p>单选框 single</p>
       <v-single :single="selections" @on-change="singleChange($event)"></v-single>
     </div>

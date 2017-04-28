@@ -47,11 +47,11 @@
     },
     watch: {
       nowArr () {
-        let backObj=[];
-        for(let i=0;i<this.nowArr.length;i++){
+        let backObj = [];
+        for (let i = 0; i < this.nowArr.length; i++) {
           backObj.push({
-            text:this.lists[this.nowArr[i]].text,
-            value:this.lists[this.nowArr[i]].value
+            text: this.lists[this.nowArr[i]].text,
+            value: this.lists[this.nowArr[i]].value
           });
         }
         this.$emit('on-change', backObj);

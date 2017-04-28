@@ -5,6 +5,10 @@
       <v-select :lists="selections" @on-change="selectChange($event)"></v-select>
     </div>
     <div class="components-box">
+      <p>下拉多选 selectMultiple</p>
+      <v-smultiple :lists="selections" @on-change="selectMultiChange($event)"></v-smultiple>
+    </div>
+    <div class="components-box">
       <p>单选框 single</p>
       <v-single :single="selections" @on-change="singleChange($event)"></v-single>
     </div>
@@ -30,6 +34,7 @@
 
 <script>
   import vSelect from './components/select'
+  import vSmultiple from './components/selectMultiple'
   import vSingle from './components/single'
   import vMultiple from './components/multiple'
   import vSlide from './components/slide'
@@ -39,6 +44,7 @@
   export default {
     components: {
       vSelect,
+      vSmultiple,
       vSingle,
       vMultiple,
       vSlide,
@@ -95,6 +101,10 @@
     methods: {
       selectChange (event) {
         console.log("select");
+        console.log(event);
+      },
+      selectMultiChange (event) {
+        console.log("selectMulti");
         console.log(event);
       },
       singleChange (event) {

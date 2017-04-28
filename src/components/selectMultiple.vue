@@ -65,8 +65,7 @@
         }
       }
     },
-    methods: {cls
-
+    methods: {
       toggle () {
         this.isShow = !this.isShow;
       },

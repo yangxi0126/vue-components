@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d9b8e38-d23f-46a9-b8e1-dc384e541577" name="Default" comment="gitignore">
+    <list default="true" id="9d9b8e38-d23f-46a9-b8e1-dc384e541577" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/selectMultiple.vue" afterPath="$PROJECT_DIR$/src/components/selectMultiple.vue" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -44,21 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="selectMultiple.vue" pinned="false" current-in-tab="false">
+      <file leaf-file-name="selectMultiple.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/selectMultiple.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="56" column="39" lean-forward="false" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="39" />
+            <state relative-caret-position="408">
+              <caret line="66" column="6" lean-forward="true" selection-start-line="66" selection-start-column="6" selection-end-line="66" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -130,6 +121,9 @@
       <find>el-drop-box</find>
       <find>trian</find>
       <find>nowArr</find>
+      <find>static/</find>
+      <find>static</find>
+      <find>../static</find>
     </findStrings>
     <replaceStrings>
       <replace>nextPic</replace>
@@ -138,6 +132,7 @@
       <replace>0</replace>
       <replace>2px 2px 10px</replace>
       <replace>fade</replace>
+      <replace>../static/</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -159,12 +154,13 @@
         <option value="$PROJECT_DIR$/src/components/page.vue" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/components/select.vue" />
-        <option value="$PROJECT_DIR$/dist/index.html" />
         <option value="$PROJECT_DIR$/config/index.js" />
         <option value="$PROJECT_DIR$/123.html" />
         <option value="$PROJECT_DIR$/src/components/table.vue" />
-        <option value="$PROJECT_DIR$/src/components/selectMultiple.vue" />
         <option value="$PROJECT_DIR$/src/App.vue" />
+        <option value="$PROJECT_DIR$/src/components/selectMultiple.vue" />
+        <option value="$PROJECT_DIR$/dist/index.html" />
+        <option value="$PROJECT_DIR$/dist/static/js/app.dff2a8d558aa0eda87a1.js" />
       </list>
     </option>
   </component>
@@ -291,7 +287,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="F:/222222" />
+    <property name="last_opened_file_path" value="F:/vue2-components-demo" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="editor.config.accepted" value="true" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
@@ -382,7 +378,7 @@
       <workItem from="1493083439236" duration="19741000" />
       <workItem from="1493171309688" duration="20815000" />
       <workItem from="1493255896186" duration="24490000" />
-      <workItem from="1493342641934" duration="4848000" />
+      <workItem from="1493342641934" duration="5702000" />
     </task>
     <task id="LOCAL-00001" summary="modal弹窗">
       <created>1493087249380</created>
@@ -482,11 +478,25 @@
       <option name="project" value="LOCAL" />
       <updated>1493347967445</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="gitignore">
+      <created>1493347990229</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1493347990229</updated>
+    </task>
+    <task id="LOCAL-00016" summary="下拉多选组件">
+      <created>1493348052110</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1493348052110</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88453000" />
+    <option name="totallyTimeSpent" value="89307000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -546,6 +556,24 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -553,7 +581,8 @@
     <MESSAGE value="modal弹窗" />
     <MESSAGE value="分页组件" />
     <MESSAGE value="gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore" />
+    <MESSAGE value="下拉多选组件" />
+    <option name="LAST_COMMIT_MESSAGE" value="下拉多选组件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -788,13 +817,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/123.html" />
     <entry file="file://$PROJECT_DIR$/src/components/table.vue" />
-    <entry file="file://$PROJECT_DIR$/dist/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="0" column="451" lean-forward="true" selection-start-line="0" selection-start-column="451" selection-end-line="0" selection-end-column="451" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/page.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5160">
@@ -832,10 +854,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/selectMultiple.vue">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="56" column="39" lean-forward="false" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="39" />
+        <state relative-caret-position="192">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -851,10 +873,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/dist/static/css/app.443af16e707a94c24cfe916dea48df7b.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="0" column="1952" lean-forward="false" selection-start-line="0" selection-start-column="1952" selection-end-line="0" selection-end-column="1952" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/static/js/app.dff2a8d558aa0eda87a1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="0" column="8543" lean-forward="false" selection-start-line="0" selection-start-column="8543" selection-end-line="0" selection-end-column="8543" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/selectMultiple.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="66" column="6" lean-forward="true" selection-start-line="66" selection-start-column="6" selection-end-line="66" selection-end-column="6" />
           <folding />
         </state>
       </provider>

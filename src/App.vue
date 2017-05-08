@@ -17,10 +17,6 @@
       <v-multiple :multiple="selections" @on-change="multipleChange($event)"></v-multiple>
     </div>
     <div class="components-box">
-      <p>轮播 slide</p>
-      <v-slide :slides="slides" :interval="intervalTime" @on-change="slideChange($event)"></v-slide>
-    </div>
-    <div class="components-box">
       <p>弹窗 modal</p>
       <div class="app-btn" @click="showEvt">show modal</div>
       <v-modal :isShow="isShow" @on-change="closeEvt"></v-modal>
@@ -28,6 +24,18 @@
     <div class="components-box">
       <p>分页 page</p>
       <v-page :total="80" :current.sync="1" :dispaley="10" @on-change="pageChange($event)"></v-page>
+    </div>
+    <div class="components-box">
+      <p>树形结构 tree(注意此处传的值时item，不是整个数组)</p>
+      <div style="width: 300px;margin: 0 auto;">
+        <ul class="filetree treeview">
+          <v-tree :tree="item" :index.number="index" v-for="(item,index) in tree" :key="index"></v-tree>
+        </ul>
+      </div>
+    </div>
+    <div class="components-box">
+      <p>轮播 slide</p>
+      <v-slide :slides="slides" :interval="intervalTime" @on-change="slideChange($event)"></v-slide>
     </div>
   </div>
 </template>
@@ -40,6 +48,7 @@
   import vSlide from './components/slide'
   import vModal from './components/modal'
   import vPage from './components/page'
+  import vTree from './components/tree'
 
   export default {
     components: {
@@ -49,7 +58,8 @@
       vMultiple,
       vSlide,
       vModal,
-      vPage
+      vPage,
+      vTree
     },
     name: 'app',
     data () {
@@ -95,7 +105,77 @@
           }
         ],
         intervalTime: 3000,
-        isShow: false
+        isShow: false,
+        tree: [
+          {
+            label: 'Folder 1',
+            value: 'Folder 1',
+            children: [
+              {
+                label: 'Item 1.1',
+                value: 'Item 1.1',
+                last: true
+              }
+            ]
+          },
+          {
+            label: 'Folder 2',
+            value: 'Folder 2',
+            children: [
+              {
+                label: 'Subfolder 2.1',
+                value: 'Subfolder 2.1',
+                children: [
+                  {
+                    label: 'File 2.1.1',
+                    value: 'File 2.1.1'
+                  },
+                  {
+                    label: 'File 2.1.2',
+                    value: 'File 2.1.2',
+                    children: [
+                      {
+                        label: 'File 2.1.2.1',
+                        value: 'File 2.1.2.1',
+                        last: true
+                      }
+                    ]
+                  },
+                  {
+                    label: 'File 2.1.3',
+                    value: 'File 2.1.3',
+                    last: true
+                  }
+                ]
+              },
+              {
+                label: 'File 2.2',
+                value: 'File 2.2',
+                last: true
+              }
+            ]
+          },
+          {
+            label: 'Folder 3 (closed at start)',
+            value: 'Folder 3',
+            children: [
+              {
+                label: 'File 3.1',
+                value: 'File 3.1',
+                last: true
+              }
+            ]
+          },
+          {
+            label: 'File 4',
+            value: 'File 4'
+          },
+          {
+            label: 'File 5',
+            value: 'File 5',
+            last: true
+          }
+        ]
       }
     },
     methods: {

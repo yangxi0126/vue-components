@@ -32,11 +32,12 @@
 //      console.log(this.tree);
     },
     methods: {
-      toggle (item,label,value) {
-        if(item){
+      toggle (item, label, value) {
+        if (item) {
           this.isShow = !this.isShow;
-        }else{
-          console.log(label+'='+value);
+        } else {
+          console.log('此处写最后一层的事件');
+          console.log({label: label, value: value});
         }
       }
     }

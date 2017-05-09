@@ -207,6 +207,9 @@
       },
       pageChange (event) {
         console.log(event);
+      },
+      treeChange (event) {
+        console.log(event);
       }
     }
   }

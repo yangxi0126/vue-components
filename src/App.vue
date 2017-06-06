@@ -37,6 +37,12 @@
       <p>轮播 slide</p>
       <v-slide :slides="slides" :interval="intervalTime" @on-change="slideChange($event)"></v-slide>
     </div>
+    <div class="components-box">
+      <p>简单左右树 basicTwoTree</p>
+      <div style="width: 650px;margin: 0 auto;">
+        <basic-two-tree :commonData="basicTwoTree"></basic-two-tree>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -49,6 +55,7 @@
   import vModal from './components/modal'
   import vPage from './components/page'
   import vTree from './components/tree'
+  import basicTwoTree from './components/basicTwoTree'
 
   export default {
     components: {
@@ -59,7 +66,8 @@
       vSlide,
       vModal,
       vPage,
-      vTree
+      vTree,
+      basicTwoTree
     },
     name: 'app',
     data () {
@@ -174,6 +182,44 @@
             label: 'File 5',
             value: 'File 5',
             last: true
+          }
+        ],
+        basicTwoTree: [
+          {
+            id: 1,
+            text: '北京',
+            label: 'beijing',
+            checked: false
+          },
+          {
+            id: 2,
+            text: '上海',
+            label: 'shanghai',
+            checked: true
+          },
+          {
+            id: 3,
+            text: '广州',
+            label: 'guangzhou',
+            checked: true
+          },
+          {
+            id: 4,
+            text: '成都',
+            label: 'chengdu',
+            checked: false
+          },
+          {
+            id: 5,
+            text: '深圳',
+            label: 'shenzhen',
+            checked: false
+          },
+          {
+            id: 6,
+            text: '武汉',
+            label: 'wuhan',
+            checked: false
           }
         ]
       }

@@ -23,7 +23,7 @@
     </div>
     <div class="components-box">
       <p>分页 page</p>
-      <v-page :total="80" :current.sync="1" :dispaley="10" @on-change="pageChange($event)"></v-page>
+      <v-page :total="80" :current="1" :display="10" @on-change="pageChange($event)"></v-page>
     </div>
     <div class="components-box">
       <p>树形结构 tree(注意此处传的值时item，不是整个数组)</p>
